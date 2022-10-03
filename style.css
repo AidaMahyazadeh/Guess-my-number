@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: gray;
+}
+header {
+  position: relative;
+  height: 35vh;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  height: 65vh;
+}
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+h1 {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 4rem;
+}
+.between {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
+.again {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.number {
+  background-color: white;
+  color: grey;
+  text-align: center;
+  font-size: 5rem;
+  padding: 5px;
+  width: 10%;
+  position: absolute;
+  left: 45%;
+  margin-top: 5px;
+}
+.guess {
+  background: none;
+  border: 1px solid black;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  width: 25rem;
+  padding: 2.5rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+  cursor: default;
+  border-radius: 5px;
+}
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  color: black;
+  background-color: white;
+}
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+}
+.label-score {
+  margin-bottom: 2rem;
+}
